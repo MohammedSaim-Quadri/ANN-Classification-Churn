@@ -1,4 +1,4 @@
-# 📊 ANN-Based Customer Churn Classification
+# ANN-Based Customer Churn Classification
 
 A Streamlit web application that predicts the likelihood of a customer churning using an Artificial Neural Network (ANN) model trained on the **Churn Modelling Dataset**. The app enables interactive input of customer features to instantly obtain predictions based on a pre-trained deep learning model.
 
@@ -6,13 +6,13 @@ A Streamlit web application that predicts the likelihood of a customer churning 
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This project addresses the business-critical problem of **customer churn prediction**. It uses a fully connected ANN trained on a dataset of bank customers. The app allows users to enter various customer attributes like age, credit score, and account balance, and outputs the probability of churn in real time.
 
 ---
 
-## 🧠 Model Details
+## Model Details
 
 - **Architecture**: Fully Connected ANN with multiple Dense layers
 - **Framework**: TensorFlow / Keras
@@ -24,7 +24,7 @@ This project addresses the business-critical problem of **customer churn predict
 
 ---
 
-## 🛠️ Features
+## Features
 
 - Real-time prediction via interactive UI
 - Trained deep learning model (`.h5` file)
@@ -34,7 +34,7 @@ This project addresses the business-critical problem of **customer churn predict
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 ```bash
 ann-classification-churn/
 │ ├── app.py # Streamlit app script
@@ -53,7 +53,7 @@ ann-classification-churn/
 
 ---
 
-## ⚙️ How to Run Locally
+## How to Run Locally
 
 ### 1. Clone the Repo
 
@@ -81,7 +81,7 @@ streamlit run app.py
 
 ---
 
-## 📈 Dataset
+## Dataset
 The model is trained on the Churn Modelling Dataset which includes:
 - Demographic and financial details of 10,000+ bank customers
 - Target: Exited (1 = churned, 0 = retained)
@@ -100,19 +100,19 @@ Features used:
 
 ---
 
-## 🔍 Demo Screenshot
-
+## Demo Screenshot
+![App Screenshot](./demo.png)
 
 ---
 
-## 📌 Deployment
+## Deployment
 The model is deployed using Streamlit Community Cloud with all encoders and scalers serialized via pickle.
 
 🔗 [Visit the Streamlit App](https://ann-classification-churn-3kq5m6c96mw9lz48bszpqv.streamlit.app/)
 
 ---
 
-## 📜 License
+## License
 This project is licensed under the terms of the GNU License. See the LICENSE file for details.
 
 ---
